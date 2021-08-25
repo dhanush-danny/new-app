@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Settings</title>
+    <link rel="stylesheet" href="setting.css">
+    <script src="settings.js"></script>
+
+</head>
+
+<body>
+    <br><br><br>
+    <center>
+        <div id="div_topbar">
+            <label id="lab_settings">Settings</label>
+        </div>
+    </center>
+
+    <ul id="unordered_holding_lab">
+        <li><label id="lab_volume">Volume</label> <img src="no_volume.png" id="img_no_volume" width="50" height="44">
+            <img src="volume.png" id="img_volume" width="50" height="44"> </li>
+        <br><br><br><br><br><br><br><br>
+        <li><label id="lab_language">Language</label>
+            <select name="Language_dropdown" id="Language_dropdown">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Kannada">Kannada</option>
+            </select>
+        </li>
+        <br><br><br><br><br><br><br><br>
+        <li><label id="lab_grade">Grade</label>
+            <select name="grade_dropdown" id="grade_dropdown">
+                <option value="four">4</option>
+                <option value="five">5</option>
+                <option value="six">6</option>
+                <option value="seven">7</option>
+                <option value="eight">8</option>
+            </select>
+        </li>
+        <br><br><br><br><br><br><br><br>
+        <li><label id="lab_Subject">Subject</label>
+            <select name="subject_dropdown" id="subject_dropdown">
+                <option value="Hindi_l">Hindi</option>
+                <option value="Science_l">Science</option>
+                <option value="English_l">English</option>
+                <option value="computers_l">Computers</option>
+                <option value="Kannada_l">Kannada</option>
+            </select>
+        </li>
+        <br><br><br><br><br><br><br><br>
+        <li> <img src="home_settings.png" width="50px" height="50px" onclick="setting_to_home()" id="img_home_setting"> </li>
+    </ul>
+
+</body>
+
+</html>

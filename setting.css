@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(8, 77, 59);
+}
+
+#lab_settings {
+    color: #ffc446;
+    font-family: Trebuchet MS;
+    font-size: 66px;
+}
+
+#div_topbar {
+    text-align: top;
+}
+
+#row_topbar {
+    text-align: center;
+}
+
+#lab_volume {
+    color: #ffc446;
+    font-family: Trebuchet MS;
+    font-size: 44px;
+}
+
+#lab_language {
+    color: #ffc446;
+    font-family: Trebuchet MS;
+    font-size: 44px;
+}
+
+#unordered_holding_lab {
+    margin-top: 150px;
+    color: rgb(8, 77, 59);
+}
+
+#lab_grade {
+    color: #ffc446;
+    font-family: Trebuchet MS;
+    font-size: 44px;
+}
+
+#lab_subject {
+    color: #ffc446;
+    font-family: Trebuchet MS;
+    font-size: 44px;
+}
+
+#img_no_volume {
+    margin-left: 222px;
+    margin-top: 10px;
+}
+
+#img_volume {
+    margin-left: 222px;
+    margin-top: 10px;
+}
+
+#language_dropdown {
+    background-color: rgb(8, 77, 59);
+    color: #ffc446;
+    margin-left: 180px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+#grade_dropdown {
+    background-color: rgb(8, 77, 59);
+    color: #ffc446;
+    margin-left: 248px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+#subject_dropdown {
+    background-color: rgb(8, 77, 59);
+    color: #ffc446;
+    margin-left: 220px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+}
+
+#Language_dropdown:hover {
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+}
+#grade_dropdown:hover {
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+}
+#subject_dropdown:hover {
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
+}
+#img_home_setting{
+    margin-top: 260px;
+}
