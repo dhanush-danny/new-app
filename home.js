@@ -1,4 +1,3 @@
-
-function go_settings(){
-    window.location="setting.html";
+function play_button() {
+    window.location = "setting.html";
 }
